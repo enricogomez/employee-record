@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.9.3/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.9.3/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.9.3/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.9.3/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.9.3/firebase-storage.js"></script>
+    <script defer src="/__/firebase/7.9.3/firebase-firestore.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    
+  </head>
+  <body>
+
+      <h1> Employee Records</h1>
+      <div id="add-div">
+        <input type="text" id="name" placeholder="Enter name...."/>
+        <input type="number" id="age" placeholder="Enter age...."/>
+        <input type="text" id="birthdate" placeholder="Enter birthdate...."/>
+        <input type="text" id="address" placeholder="Enter address"/> 
+        <input type="text" id="contact-number" placeholder="Enter contact number...."/> 
+        <input type="text" id="date-started" placeholder="Date Started....">
+        <input type="text" id="sss" placeholder="Enter SSS ID....">
+        <input type="text" id="pagibig" placeholder="Enter PAGIBIG ID....">
+        <input type="text" id="tin" placeholder="Enter TIN ID...">
+        <input type="text" id="philhealth" placeholder="Enter Philhealth ID....">
+        <button id="add-btn">ADD</button>
+        <button id="save-btn" style = "display:none;">SAVE</button>
+         <table border="1" class="employee-table">
+           <thead>
+             <tr>
+               <th>Name</th>
+               <th>Age</th>
+               <th>Birthdate</th>
+               <th>Address</th>
+               <th>Contact Number</th>
+               <th>Date Started</th>
+               <th>SSS ID</th>
+               <th>PAGIBIG ID</th>
+               <th>TIN ID</th>
+               <th>Philhealth ID</th>
+               <th>Action</th>
+             </tr>
+           </thead>
+           <tbody id="employee-table"></tbody>
+         </table>
+     </div>
+    
+
+
+      
+      
+
+
+
+
+   
+  </body>
+</html>
