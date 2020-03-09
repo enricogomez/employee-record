@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let saveBtn = document.getElementById('save-btn');
   let employeeTable =document.getElementById('employee-table');
   let inputFields = document.getElementsByTagName('input');
-
+  //test
   // let employee = {
   //   name: name.value,
   //   age: age.value,
